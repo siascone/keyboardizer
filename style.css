@@ -1,0 +1,70 @@
+body {
+    background: url('./spacebackground.jpg');
+    align-items: center;
+}
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 37.5px;
+}
+.row3 {
+    display: flex;
+    justify-content: center;
+    margin-right: 115.5px;
+}
+.space {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px
+}
+
+.key {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+    border: .4rem solid black;
+    transition: all .07s ease;
+    background: rgb(174, 0, 255);
+    color: white;
+    text-align: center;
+    margin: 3px;
+}
+
+.spacebar {
+    height: 75px;
+    width: 410px;
+    transition: all .07s ease;
+    border-radius: 5px;
+    border: .4rem solid black;
+    background: rgb(174, 0, 255);
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+/* .sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+} */
